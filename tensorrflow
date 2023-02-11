@@ -1,0 +1,11 @@
+import numpyfrom keras.models 
+import Sequentialfrom keras.layers 
+import Dense, Dropout, Flatten, BatchNormalization, Activationfrom keras.layers.convolutional 
+import Conv2D, MaxPooling2Dfrom keras.constraints 
+import maxnormfrom keras.utils import np_utils
+
+# Set random seed for purposes of reproducibilityseed = 21
+
+from keras.datasets import cifar10
+
+# loading in the data (X_train, y_train), (X_test, y_test) = cifar10.load_data()
